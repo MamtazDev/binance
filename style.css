@@ -88,6 +88,50 @@
     line-height: 24px;
 }
 
+.help {
+    margin-bottom: 100px;
+}
+
+.help h1 {
+    color: #1E2329;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 70px;
+}
+
+.help h6 {
+    color: #1E2329;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.help p {
+    color: #474D57;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.help button {
+    color: #C99400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: transparent;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 .earning {
     background-color: #FAFAFA;
@@ -100,4 +144,25 @@
     font-size: 40px;
     line-height: 48px;
     color: #1E2329;
+    margin-bottom: 50px;
+}
+
+footer {
+    padding-top: 65px;
+
+}
+
+footer h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1E2329;
+    margin-bottom: 20px;
+}
+
+footer a {
+    margin-bottom: 12px;
+    color: #707A8A;
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
 }
