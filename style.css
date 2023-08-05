@@ -1,3 +1,50 @@
 .container {
-    max-width: 1170px;
+  max-width: 1170px;
+}
+
+/* carousel */
+
+.carousel-indicators {
+  bottom: -45px !important;
+}
+
+.carousel-inner {
+  border-radius: 16px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #ebedf0 !important;
+  border-radius: 50% !important;
+  height: 8px !important;
+  width: 8px !important;
+  opacity: 1 !important;
+  border: none !important;
+}
+
+.carousel-indicators .active {
+  background-color: #f0b90b !important;
+  width: 27px !important;
+  border-radius: 10px !important;
+}
+
+/* popular cryptocurrencies */
+
+.popularCryptoContainer {
+  margin-top: 48px;
+}
+.popularCryptoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popularCryptoHeader h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+}
+.popularCryptoHeader p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #707a8a;
 }
