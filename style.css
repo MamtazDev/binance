@@ -88,7 +88,7 @@
     line-height: 24px;
 }
 
-.rewards h1 {
+.title {
     color: #1E2329;
     font-weight: 600;
     font-size: 40px;
@@ -96,12 +96,28 @@
     margin-bottom: 16px;
 }
 
-.rewards h6 {
+.subtitle {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #474D57;
     margin-bottom: 64px;
+}
+
+.section_gap {
+    margin-bottom: 160px;
+}
+
+.right_btn {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #707A8A;
+    cursor: pointer;
+}
+
+.right_btn:hover {
+    color: #F0B90B;
 }
 
 .rewards .reward_box {
@@ -140,10 +156,69 @@
     transition: 0.3s ease-in-out;
 }
 
+.crypto h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1E2329;
+    margin-bottom: 8px;
+}
+
+.crypto p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #474D57;
+}
 
 
+.ios {
+    background-color: #FAFAFA;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 40px;
+}
 
+.ios p {
+    color: #707A8A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
 
+.ios h5 {
+    color: #1E2329;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.os {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    height: 75px;
+    width: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.os:hover {
+    background-color: #F5F5F5;
+
+}
+
+.os p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E2329;
+    margin-bottom: 0 !important;
+}
 
 .help {
     margin-bottom: 100px;
