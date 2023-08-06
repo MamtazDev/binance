@@ -30,7 +30,7 @@
     margin-bottom: 28px;
 }
 
-.signup_btn {
+.warning_btn {
     background-color: #FCD535;
     padding-left: 24px;
     padding-right: 24px;
@@ -46,6 +46,12 @@
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 23px;
+    transition: 0.3s ease-in-out;
+}
+
+.warning_btn:hover {
+    background-color: #FCD535;
+    opacity: 0.9;
 }
 
 .banner span {
