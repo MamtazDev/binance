@@ -17,6 +17,18 @@ p {
     max-width: 1169px;
 }
 
+.gift_box {
+    background-color: rgb(254, 246, 216);
+    padding: 24px 0;
+}
+
+.gift_box p {
+    color: rgb(71, 77, 87);
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
 /* banner css */
 .banner_bg {
     background-image: url('./assets/banner-bg.png');
