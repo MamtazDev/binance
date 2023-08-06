@@ -17,6 +17,49 @@ p {
     max-width: 1169px;
 }
 
+header .parent {
+    position: relative;
+}
+
+header .child {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 50px;
+    transition: 0.3s ease-in-out;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: max-content;
+}
+
+header .parent:hover .child {
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav-item.parent>.nav-link:hover {
+    color: #FCD535;
+}
+
+header .parent:hover .fa-caret-down {
+    transform: rotate(180deg);
+}
+
+header .sub_menu .fa-arrow-right {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    color: #FCD535;
+}
+
+header .sub_menu:hover .fa-arrow-right {
+    visibility: visible;
+    opacity: 1;
+}
+
+
 .gift_box {
     background-color: rgb(254, 246, 216);
     padding: 24px 0;
@@ -151,6 +194,54 @@ p {
 .right_btn:hover {
     color: #F0B90B;
 }
+
+/* carousel */
+
+.carousel-indicators {
+    bottom: -45px !important;
+  }
+  
+  .carousel-inner {
+    border-radius: 16px !important;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #ebedf0 !important;
+    border-radius: 50% !important;
+    height: 8px !important;
+    width: 8px !important;
+    opacity: 1 !important;
+    border: none !important;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #f0b90b !important;
+    width: 27px !important;
+    border-radius: 10px !important;
+  }
+  
+  .sliderContainer {
+    margin-top: 40px;
+    margin-bottom: 85px;
+  }
+  
+  /* popular cryptocurrencies */
+  
+  .popularCryptoContainer {
+    margin-top: 93px;
+  }
+ 
+  .popularCryptoHeader h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .popularCryptoHeader p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #707a8a;
+  }
 
 .rewards .reward_box {
     padding: 24px 45px;
