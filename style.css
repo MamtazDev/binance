@@ -387,7 +387,8 @@ footer h6 {
     margin-bottom: 20px;
 }
 
-footer a, footer p {
+footer a,
+footer p {
     margin-bottom: 12px;
     color: #707A8A;
     font-size: 14px;
@@ -398,4 +399,34 @@ footer a, footer p {
 
 footer a:hover {
     color: #1E2329;
+}
+
+.sms {
+    position: fixed;
+    right: 24px;
+    bottom: 16px;
+    z-index: 998;
+    cursor: pointer;
+    border-radius: 32px;
+    background: #FCD535;
+    min-width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.sms p {
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+
+.sms:hover {
+    padding: 0 15px;
+}
+
+.sms:hover p {
+    display: block;
 }
