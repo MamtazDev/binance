@@ -40,11 +40,12 @@ header .parent:hover .child {
 }
 
 .nav-item.parent>.nav-link:hover {
-    color: #FCD535;
+    color: rgb(93, 170, 93);
+    ;
 }
 
 .nav-item .nav-link:hover {
-    color: #FCD535;
+    color: rgb(93, 170, 93);
 }
 
 
@@ -56,7 +57,8 @@ header .sub_menu .fa-arrow-right {
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
-    color: #FCD535;
+    color: rgb(93, 170, 93);
+    ;
 }
 
 header .sub_menu:hover .fa-arrow-right {
@@ -66,7 +68,7 @@ header .sub_menu:hover .fa-arrow-right {
 
 
 .gift_box {
-    background-color: rgb(254, 246, 216);
+    background-color: rgb(216, 245, 216);
     padding: 12px 0;
 }
 
@@ -106,7 +108,7 @@ header .sub_menu:hover .fa-arrow-right {
 }
 
 .warning_btn {
-    background-color: #FCD535;
+    background-color: rgb(93, 170, 93);
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 12px;
@@ -125,7 +127,7 @@ header .sub_menu:hover .fa-arrow-right {
 }
 
 .warning_btn:hover {
-    background-color: #FCD535;
+    background-color: rgb(95, 177, 95);;
     opacity: 0.9;
 }
 
@@ -197,7 +199,7 @@ header .sub_menu:hover .fa-arrow-right {
 }
 
 .right_btn:hover {
-    color: #F0B90B;
+    color: rgb(93, 170, 93);;
 }
 
 /* carousel */
@@ -220,7 +222,7 @@ header .sub_menu:hover .fa-arrow-right {
 }
 
 .carousel-indicators .active {
-    background-color: #f0b90b !important;
+    background-color: rgb(93, 170, 93) !important;
     width: 27px !important;
     border-radius: 10px !important;
 }
@@ -293,12 +295,12 @@ table th:last-child {
 }
 
 .rewards .reward_box:hover {
-    border: 2px solid rgb(252, 213, 53);
+    border: 2px solid rgb(93, 170, 93);
     background-color: rgb(255, 255, 255);
 }
 
 .rewards .reward_box:hover button {
-    background-color: rgb(252, 213, 53);
+    background-color: rgb(93, 170, 93);
     color: black;
 }
 
@@ -495,7 +497,7 @@ table th:last-child {
 }
 
 .help button {
-    color: #C99400;
+    color: rgb(93, 170, 93);;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -550,7 +552,7 @@ footer a:hover {
     z-index: 998;
     cursor: pointer;
     border-radius: 32px;
-    background: #FCD535;
+    background: rgb(93, 170, 93);
     min-width: 40px;
     height: 40px;
     display: flex;
