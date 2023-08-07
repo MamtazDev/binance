@@ -43,6 +43,11 @@ header .parent:hover .child {
     color: #FCD535;
 }
 
+.nav-item .nav-link:hover {
+    color: #FCD535;
+}
+
+
 header .parent:hover .fa-caret-down {
     transform: rotate(180deg);
 }
@@ -62,7 +67,7 @@ header .sub_menu:hover .fa-arrow-right {
 
 .gift_box {
     background-color: rgb(254, 246, 216);
-    padding: 24px 0;
+    padding: 12px 0;
 }
 
 .gift_box p {
@@ -244,6 +249,15 @@ header .sub_menu:hover .fa-arrow-right {
     color: #707a8a;
 }
 
+.table {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.table::-webkit-scrollbar {
+    display: none;
+}
+
 table tr {
     border-color: transparent !important;
     cursor: pointer;
@@ -267,9 +281,6 @@ table td:last-child,
 table th:last-child {
     text-align: end;
 }
-
-
-
 
 .rewards .reward_box {
     padding: 24px 45px;
@@ -560,4 +571,19 @@ footer a:hover {
 
 .sms:hover p {
     display: block;
+}
+
+
+@media screen and (max-width:767px) {
+    header .child {
+        padding: 5px;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .section_gap {
+        margin-bottom: 50px;
+    }
 }

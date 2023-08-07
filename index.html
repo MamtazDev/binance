@@ -108,7 +108,7 @@
                         <div class="nav-item parent">
                             <a class="nav-link" aria-current="page" href="#">Trade <i
                                     class="fa-solid fa-caret-down"></i></a>
-                            <div class="child d-flex gap-5 ">
+                            <div class="child d-flex flex-column flex-lg-row gap-5 ">
                                 <div>
 
                                     <div class="sub_menu nav-item">
@@ -186,7 +186,7 @@
                         <div class="nav-item parent">
                             <a class="nav-link" aria-current="page" href="#">Derivatives <i
                                     class="fa-solid fa-caret-down"></i></a>
-                            <div class="child d-flex gap-5 ">
+                            <div class="child d-flex flex-column flex-lg-row gap-5 ">
                                 <div>
 
                                     <div class="sub_menu nav-item">
@@ -264,7 +264,7 @@
                         <div class="nav-item parent">
                             <a class="nav-link" aria-current="page" href="#">Finance <i
                                     class="fa-solid fa-caret-down"></i></a>
-                            <div class="child d-flex gap-5 ">
+                            <div class="child d-flex flex-column flex-lg-row gap-5 ">
                                 <div>
 
                                     <div class="sub_menu nav-item">
@@ -345,7 +345,7 @@
                         <div class="nav-item parent">
                             <a class="nav-link" aria-current="page" href="#">More <i
                                     class="fa-solid fa-caret-down"></i></a>
-                            <div class="child d-flex gap-5 ">
+                            <div class="child d-flex flex-column flex-lg-row gap-5 ">
                                 <div>
 
                                     <div class="sub_menu nav-item">
@@ -432,19 +432,37 @@
                     </div>
                     <form class="d-flex gap-3" role="search">
                         <div class="nav-item">
-                            <a class="nav-link ">Log In</a>
+                            <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link ">Log In</a>
                         </div>
                         <button class="warning_btn d-flex align-items-center gap-2 py-1 px-1 mb-0" type="submit"><i
                                 class="fa-solid fa-gift fs-6"></i>
                             Register</button>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link "><i class="fa-solid fa-moon"></i></a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link "><i class="fa-solid fa-bell"></i></a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link "><i class="fa-solid fa-globe"></i></a>
+                        </div>
+                        <div class="nav-item">
+                            <a href="#" class="nav-link "><i class="fa-solid fa-file-arrow-down"></i></a>
+                        </div>
+
+
                     </form>
                 </div>
             </div>
         </nav>
     </header>
 
+    <!-- gift box section -->
     <section class="gift_box">
-        <div class="container d-flex align-itens-center gap-2 justify-content-center">
+        <div class="container d-flex flex-wrap align-itens-center gap-2 justify-content-center">
             <p class="mb-0"><i class="text-warning fa-solid fa-gift fs-6"></i> Register now — Get up to 100 USDT in
                 trading fee
                 rebate (for verified users)</p>
@@ -464,7 +482,7 @@
                                 class="fs-6 text-secondary fa-solid fa-chevron-right"></i></p>
                         <div style="max-width: 390px;">
 
-                            <button class="warning_btn w-100 d-flex align-items-center"><i
+                            <button class="warning_btn w-100 d-flex align-items-center justify-content-center"><i
                                     class="fa-solid fa-user me-2"></i> Sign up with Email or Phone</button>
                             <div>
                                 <span>or continue with</span>
@@ -527,13 +545,13 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="1500">
-                        <img src="/assets/banner1.png" class="d-block w-100" alt="..." />
+                        <img src="/assets/banner1.png" class="d-block w-100 img-fluid" alt="..." />
                     </div>
                     <div class="carousel-item" data-bs-interval="1500">
-                        <img src="/assets/banner2.png" class="d-block w-100" alt="..." />
+                        <img src="/assets/banner2.png" class="d-block w-100 img-fluid" alt="..." />
                     </div>
                     <div class="carousel-item" data-bs-interval="1500">
-                        <img src="/assets/banner3.png" class="d-block w-100" alt="..." />
+                        <img src="/assets/banner3.png" class="d-block w-100 img-fluid" alt="..." />
                     </div>
                 </div>
             </div>
@@ -550,59 +568,61 @@
             <p class="right_btn d-flex align-items-center gap-2">View more markets <i
                     class="fw-bold fa-solid fa-angle-right"></i></p>
         </div>
+        <div class="table">
 
-        <table class="table table-hover w-100">
-            <thead>
-                <tr>
+            <table class="table table-hover w-100">
+                <thead>
+                    <tr>
 
-                    <th scope="col">Name</th>
-                    <th scope="col">Last Price</th>
-                    <th scope="col">24h Change</th>
-                    <th scope="col">Market Cap</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <div class="d-flex gap-2">
-                            <p>BNB</p>
-                            <span class="text-secondary">BNB</span>
+                        <th scope="col">Name</th>
+                        <th scope="col">Last Price</th>
+                        <th scope="col">24h Change</th>
+                        <th scope="col">Market Cap</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="d-flex gap-2">
+                                <p>BNB</p>
+                                <span class="text-secondary">BNB</span>
 
-                        </div>
+                            </div>
 
-                    </td>
-                    <td>$241.5</td>
-                    <td class="text-success">1.17%</td>
-                    <td>$37,171M</td>
-                </tr>
-                <tr>
+                        </td>
+                        <td>$241.5</td>
+                        <td class="text-success">1.17%</td>
+                        <td>$37,171M</td>
+                    </tr>
+                    <tr>
 
-                    <td>
-                        <div class="d-flex gap-2">
-                            <p>Bitcoin</p>
-                            <span class="text-secondary">BTC</span>
+                        <td>
+                            <div class="d-flex gap-2">
+                                <p>Bitcoin</p>
+                                <span class="text-secondary">BTC</span>
 
-                        </div>
-                    </td>
-                    <td>$241.544</td>
-                    <td class="text-danger">-0.18%</td>
-                    <td>$37,5565747M</td>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="d-flex gap-2">
-                            <p>Ethereum</p>
-                            <span class="text-secondary">ETH</span>
-                        </div>
-                    </td>
-                    <td>$241.545</td>
-                    <td class="text-success">+1.23%</td>
-                    <td>$4437,556M</td>
-                </tr>
-            </tbody>
-        </table>
+                            </div>
+                        </td>
+                        <td>$241.544</td>
+                        <td class="text-danger">-0.18%</td>
+                        <td>$37,5565747M</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="d-flex gap-2">
+                                <p>Ethereum</p>
+                                <span class="text-secondary">ETH</span>
+                            </div>
+                        </td>
+                        <td>$241.545</td>
+                        <td class="text-success">+1.23%</td>
+                        <td>$4437,556M</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
     </section>
-
 
 
     <!-- Trending on Binance section -->
@@ -622,7 +642,7 @@
                     <div class="row">
                         <div class="col-12 col-lg-6">
                             <div class="d-flex align-items-start gap-3 mb-5">
-                                <i class="fa-solid fa-parachute-box"></i>
+                                <img class="img-fluid mt-1" src="./assets/icon/square.png" alt="">
                                 <div>
                                     <div style="margin-bottom: 8px;" class="d-flex align-items-center gap-2">
                                         <img class="avater" src="./assets/icon/anfelia.jpg" alt="">
@@ -636,7 +656,7 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-start gap-3 mb-5">
-                                <i class="fa-solid fa-parachute-box"></i>
+                                <img class="img-fluid mt-1" src="./assets/icon/square.png" alt="">
                                 <div>
                                     <div style="margin-bottom: 8px;" class="d-flex align-items-center gap-2">
                                         <img class="avater" src="./assets/icon/masood.jpg" alt="">
@@ -650,7 +670,7 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-start gap-3">
-                                <i class="fa-solid fa-parachute-box"></i>
+                                <img class="img-fluid mt-1" src="./assets/icon/square.png" alt="">
                                 <div>
                                     <div style="margin-bottom: 8px;" class="d-flex align-items-center gap-2">
                                         <img class="avater" src="./assets/icon/ogiso.jpg" alt="">
@@ -670,7 +690,7 @@
                         </div>
                         <div class="col-12 col-lg-6">
                             <div class="d-flex align-items-start gap-3 mb-5">
-                                <i class="fa-solid fa-parachute-box"></i>
+                                <img class="img-fluid mt-1" src="./assets/icon/square.png" alt="">
                                 <div>
                                     <div style="margin-bottom: 8px;" class="d-flex align-items-center gap-2">
                                         <img class="avater" src="./assets/icon/safoyin.jpg" alt="">
@@ -684,7 +704,7 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-start gap-3 mb-5">
-                                <i class="fa-solid fa-parachute-box"></i>
+                                <img class="img-fluid mt-1" src="./assets/icon/square.png" alt="">
                                 <div>
                                     <div style="margin-bottom: 8px;" class="d-flex align-items-center gap-2">
                                         <img class="avater" src="./assets/icon/sailor.jpg" alt="">
@@ -698,7 +718,7 @@
                                 </div>
                             </div>
                             <div class="d-flex align-items-start gap-3">
-                                <i class="fa-solid fa-parachute-box"></i>
+                                <img class="img-fluid mt-1" src="./assets/icon/square.png" alt="">
                                 <div>
                                     <div style="margin-bottom: 8px;" class="d-flex align-items-center gap-2">
                                         <img class="avater" src="./assets/icon/zaggy.jpg" alt="">
@@ -733,7 +753,6 @@
 
         </div>
     </section>
-
 
 
     <!-- Earn daily rewards section -->
@@ -1254,8 +1273,8 @@
             <p class="text-center py-3">Binance © 2023</p>
         </div>
     </footer>
-    <div class="sms">
 
+    <div class="sms">
         <i class="fa-solid fa-comment-dots"></i>
         <p class="mb-0">Support</p>
 
