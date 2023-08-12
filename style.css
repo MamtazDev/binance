@@ -154,7 +154,7 @@ header .sub_menu:hover .fa-arrow-right {
     background-color: #EAECEF;
     top: 50%;
     left: 0;
-    z-index: 9;
+    z-index: -1;
 }
 
 .counting h3 {
